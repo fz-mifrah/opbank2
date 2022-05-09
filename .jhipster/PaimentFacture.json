@@ -1,0 +1,30 @@
+{
+  "applications": ["library"],
+  "changelogDate": "20220509223602",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "paiment_facture",
+  "fields": [
+    {
+      "fieldName": "referance",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "PaimentFacture",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "nom",
+      "otherEntityName": "facture",
+      "otherEntityRelationshipName": "paimentFacture",
+      "ownerSide": true,
+      "relationshipName": "facture",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}
