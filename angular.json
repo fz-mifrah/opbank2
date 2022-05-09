@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "library": {
+    "opbank": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -76,15 +76,15 @@
         "serve": {
           "builder": "@angular-builders/custom-webpack:dev-server",
           "options": {
-            "browserTarget": "library:build:development",
+            "browserTarget": "opbank:build:development",
             "port": 4200
           },
           "configurations": {
             "production": {
-              "browserTarget": "library:build:production"
+              "browserTarget": "opbank:build:production"
             },
             "development": {
-              "browserTarget": "library:build:development"
+              "browserTarget": "opbank:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -98,7 +98,7 @@
       }
     }
   },
-  "defaultProject": "library",
+  "defaultProject": "opbank",
   "cli": {
     "cache": {
       "enabled": true,

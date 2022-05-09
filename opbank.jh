@@ -1,9 +1,9 @@
 application {
   config {
-    baseName library,
+    baseName opbank,
     applicationType monolith,
     authenticationType jwt
-    packageName com.sgaraba.library,
+    packageName com.iga.opbank,
     prodDatabaseType postgresql,
     cacheProvider hazelcast,
     buildTool maven,

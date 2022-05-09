@@ -1,25 +1,12 @@
 {
   "global": {
-    "title": "Library",
+    "title": "Opbank",
     "browsehappy": "Ваш браузер <strong>устарел</strong>. Пожалуйста <a href=\"http://browsehappy.com/?locale=ru\">обновите ваш браузер</a>.",
     "menu": {
       "home": "Главная",
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Сущности",
-        "client": "Client",
-        "compte": "Compte",
-        "banque": "Banque",
-        "carteBancaire": "Carte Bancaire",
-        "operation": "Operation",
-        "virement": "Virement",
-        "beneficiaire": "Beneficiaire",
-        "destinataire": "Destinataire",
-        "transfer": "Transfer",
-        "recharge": "Recharge",
-        "operateur": "Operateur",
-        "paimentFacture": "Paiment Facture",
-        "facture": "Facture",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

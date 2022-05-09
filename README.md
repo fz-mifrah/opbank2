@@ -1,4 +1,4 @@
-# library
+# opbank
 
 This application was generated using JHipster 7.8.1, you can find documentation and help at [https://www.jhipster.tech](https://www.jhipster.tech).
 
@@ -128,7 +128,7 @@ docker-compose -f src/main/docker/jhipster-control-center.yml up
 
 ### Packaging as jar
 
-To build the final jar and optimize the library application for production, run:
+To build the final jar and optimize the opbank application for production, run:
 
 ```
 ./mvnw -Pprod clean verify
