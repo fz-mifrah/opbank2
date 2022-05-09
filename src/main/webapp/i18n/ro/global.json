@@ -1,6 +1,6 @@
 {
   "global": {
-    "title": "Library",
+    "title": "Opbank",
     "browsehappy": "Folosiți un browser <strong>vechi</strong>. Va rugăm <a href=\"http://browsehappy.com/?locale=en\"> să îl actualizați</a> pentru o experiență îmbunătațită.",
     "menu": {
       "home": "Acasă",
@@ -10,19 +10,6 @@
         "bankAccount": "ContBancar",
         "label": "Etichetă",
         "operation": "Operație",
-        "client": "Client",
-        "compte": "Compte",
-        "banque": "Banque",
-        "carteBancaire": "Carte Bancaire",
-        "operation": "Operation",
-        "virement": "Virement",
-        "beneficiaire": "Beneficiaire",
-        "destinataire": "Destinataire",
-        "transfer": "Transfer",
-        "recharge": "Recharge",
-        "operateur": "Operateur",
-        "paimentFacture": "Paiment Facture",
-        "facture": "Facture",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {
