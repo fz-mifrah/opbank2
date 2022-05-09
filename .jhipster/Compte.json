@@ -1,0 +1,30 @@
+{
+  "applications": ["library"],
+  "changelogDate": "20220509222439",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "compte",
+  "fields": [
+    {
+      "fieldName": "rib",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "dateOuverture",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "code",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Compte",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

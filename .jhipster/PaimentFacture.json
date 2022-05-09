@@ -1,0 +1,21 @@
+{
+  "applications": ["library"],
+  "changelogDate": "20220509223439",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "paiment_facture",
+  "fields": [
+    {
+      "fieldName": "referance",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "PaimentFacture",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}
