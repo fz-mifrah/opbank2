@@ -41,7 +41,7 @@ entity CarteBancaire {
 	numCompte String required,
     
 }
-enum TypeOperation{
+enum TypeOperation {
 	TypeVirement, TypeTransfer, TypeRecharge, TypePaimentFacture
 }
 
@@ -91,12 +91,13 @@ entity Facture {
 }
 
 relationship OneToOne {
-	Client{Compte(nom)} to Compte{Client(nom) },
-    Compte{CarteBancaire} to CarteBancaire{compte},
-    Operation{Virement} to Virement{Operation},
-    Operation{Transfer} to Transfer{Operation},
-    Operation{Recharge} to Recharge{Operation},
-    Operation{PaimentFacture} to PaimentFacture{Operation},
+	Client{compte(nom) } to Compte{client(nom) } /*,
+    Compte{carteBancaire} to CarteBancaire{compte},
+    Operation{virement} to Virement{operation},
+    Operation{transfer} to Transfer{operation},
+    Operation{recharge} to Recharge{operation},
+    Operation{paimentFacture} to PaimentFacture{operation}
+*/
 }
 
 relationship OneToMany {
